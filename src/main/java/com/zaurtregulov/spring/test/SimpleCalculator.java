@@ -7,7 +7,7 @@ public class SimpleCalculator {
     }
 
     public double minusOneNumberFromAnother(double a, double b) {
-        return a - b;
+        return a - b
     }
 
     public double divideOneNumberByAnother(double a, double b) {

@@ -32,9 +32,4 @@ public class CalculatorTest {
     public void testDivideOneNumberByAnotherWithZeroAsSecondNumber() {
         assertEquals(-1d, simpleCalculator.divideOneNumberByAnother(5, 0));
     }
-
-    @Test
-    public void testWithError() {
-        assertEquals(-1, simpleCalculator.sumTwoNumbers(1, 2));
-    }
 }
