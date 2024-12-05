@@ -12,7 +12,7 @@ public class SimpleCalculator {
 
     public double divideOneNumberByAnother(double a, double b) {
         if (b == 0)
-            throw new IllegalArgumentException();
+            throw new NumberFormatException();
         else
             return a / b;
     }
